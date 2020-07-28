@@ -6,6 +6,10 @@ namespace poo.concepts {
     public class House : Asset { 
 
         public decimal Mortgage;
+
+        //public House ShallowCopy(){
+        //    return (House) this.MemberwiseClone();
+        //}
     }
 
 }
