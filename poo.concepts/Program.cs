@@ -22,6 +22,23 @@ namespace poo.concepts
             Console.WriteLine(flat.Name);
             Console.WriteLine(flat.Mortgage);
 
+
+            /*
+            * Trying how reference works
+            */
+            House flatCopy = flat;
+            Display(flatCopy);
+            
+            flat.Name = "Flat 1 floor v2";
+            
+            Display(flatCopy);
+
+        }
+
+
+        public static void Display(Asset asset)
+        {
+            Console.WriteLine(asset.Name);
         }
     }
 }
