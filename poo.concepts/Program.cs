@@ -26,7 +26,7 @@ namespace poo.concepts
             /*
             * Trying how reference works
             */
-            House flatCopy = flat.DeepCopy();
+            House flatCopy = flat;
             Display(flatCopy);
             
             flat.Name = "Flat 1 floor v2";
