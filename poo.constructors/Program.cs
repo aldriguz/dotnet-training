@@ -6,9 +6,13 @@ namespace poo.constructors
     {
         static void Main(string[] args)
         {
-            House house = new House("Psj Ramon Castilla - Trujillo - Peru", 150_000);
+            decimal totalPrice = 45000M, taxRate = 0.16M;
+            
+            string location = "Psj Ramon Castilla - Trujillo - Peru";
 
-            house.InceptionMethod(0.16);
+            House house = new House(location, totalPrice);
+
+            house.InceptionMethod(taxRate);
         }
     }
 }

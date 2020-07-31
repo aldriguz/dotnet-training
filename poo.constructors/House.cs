@@ -9,16 +9,18 @@ namespace poo.constructors {
         public int areaBuilded;
 
         public House(string location){ Location = location; }
-        public House(string location, decimal priceDollars) : this (priceDollars) { Location = location; }
-        public House(string locationLarge, decimal priceDollars) : this (locationLarge.Split(',').First(), priceDollars) { }
+        public House(string location, decimal priceDollars) : this (location) { PriceDollars = priceDollars; }
+        
+        // this is bad, cause line 12 method has signature of definition, so this method bellow invalid
+        //public House(string locationLarge, decimal priceDollars) : this (locationLarge.Split(',').First(), priceDollars) { }
 
         public void InceptionMethod(decimal taxRate){
 
             //calculate peru tax
             decimal taxAmount = this.PriceDollars * taxRate;
+            PrintValue(taxAmount);
 
-
-            void PrintValue(decimal amountDisplay) => Console.WriteLine(amountDisplay);
+            void PrintValue(decimal taxCalculated) => Console.WriteLine(taxCalculated.ToString());
         }
     }
 
