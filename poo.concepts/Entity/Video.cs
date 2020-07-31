@@ -4,21 +4,18 @@ namespace poo.concepts {
 
     public class Video : IMedia, IFileCompress
     {
-        public string Extension = "mp4";
-        private long FileSizeBytes = 1024;
-        private byte[] data = { 0, 100, 120, 210, 255};
-
         public string getFileExtension(){
 
-            return this.Extension;
+            string ext = "mp4";
+            return ext;
         }
 
-        public long getFileSizeMb(){
+        public long getFileSizeMb(int sizeBytes){
 
-            return this.FileSizeBytes / 1024;
+            return sizeBytes / 1024;
         }
 
-        private byte[] compressFile(){
+        public byte[] compressFile(){
             byte[] arrayData = { 0, 100, 120, 210, 255};
             return arrayData;
         }
