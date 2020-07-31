@@ -19,7 +19,7 @@ namespace poo.constructors {
             //calculate peru tax
             decimal taxAmount = this.PriceDollars * taxRate;
             PrintValue(taxAmount);
-            PrintValueLocation();
+            PrintLocationLength();
 
             void PrintValue(decimal taxCalculated) => Console.WriteLine(taxCalculated.ToString());
             void PrintLocationLength() => Console.WriteLine(this.Location!.Length);
