@@ -6,7 +6,9 @@ namespace poo.constructors
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            House house = new House("Psj Ramon Castilla - Trujillo - Peru", 150_000);
+
+            house.InceptionMethod(0.16);
         }
     }
 }
