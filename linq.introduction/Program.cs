@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace linq.introduction
 {
@@ -22,7 +23,7 @@ namespace linq.introduction
                                         select u;
 
 
-            Console.WriteLine(nationalUniversities.Join(","));
+            Console.WriteLine(string.Join(" | ", nationalUniversities));
         }
     }
 }
