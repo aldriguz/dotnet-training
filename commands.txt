@@ -2,3 +2,5 @@
 $ dotnet new console -lang "C#" -o poo.concepts
 
 
+#run an app
+$ dotnet run
