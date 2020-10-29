@@ -1,6 +1,0 @@
-#create new console project in C#
-$ dotnet new console -lang "C#" -o poo.concepts
-
-
-#run an app
-$ dotnet run
