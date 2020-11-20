@@ -11,6 +11,7 @@ namespace DotNetTraining
         {
             // Use BenchmarkRunner.Run to Benchmark your code
             var summary = BenchmarkRunner.Run<StringCompareVsEquals>();
+            string param  = StringCompareVsEquals.RandomString(100);
         }
     }
 
