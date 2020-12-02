@@ -25,5 +25,8 @@ namespace linq.introduction
 
             Console.WriteLine(string.Join(" | ", nationalUniversities));
         }
+
+
+        
     }
 }
