@@ -11,6 +11,7 @@ namespace benchmark.strings.compare
         {
             // Use BenchmarkRunner.Run to Benchmark your code
             var summary = BenchmarkRunner.Run<StringCompareVsEquals>();
+            string param  = StringCompareVsEquals.RandomString(100);
         }
     }
 
