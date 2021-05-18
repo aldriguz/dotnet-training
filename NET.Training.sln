@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.concepts", "poo.concept
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.constructors", "poo.constructors\poo.constructors.csproj", "{1F208297-F21B-46D0-A5E4-DF9CCFD9540C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeBook", "GradeBook\GradeBook.csproj", "{75828F32-AA36-4FF3-8CEF-77D11CE0BDB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeBook.Tests", "GradeBook.Tests\GradeBook.Tests.csproj", "{4A69DC83-D6E6-483B-9C84-8593FA6CDF6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{1F208297-F21B-46D0-A5E4-DF9CCFD9540C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F208297-F21B-46D0-A5E4-DF9CCFD9540C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F208297-F21B-46D0-A5E4-DF9CCFD9540C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75828F32-AA36-4FF3-8CEF-77D11CE0BDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75828F32-AA36-4FF3-8CEF-77D11CE0BDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75828F32-AA36-4FF3-8CEF-77D11CE0BDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75828F32-AA36-4FF3-8CEF-77D11CE0BDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A69DC83-D6E6-483B-9C84-8593FA6CDF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A69DC83-D6E6-483B-9C84-8593FA6CDF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A69DC83-D6E6-483B-9C84-8593FA6CDF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A69DC83-D6E6-483B-9C84-8593FA6CDF6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
