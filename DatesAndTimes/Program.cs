@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace DatesAndTimes
 {
@@ -6,6 +7,18 @@ namespace DatesAndTimes
     {
         static void Main(string[] args)
         {
+            try
+            {
+                //Invalid dates
+                DateTime.ParseExact("30112021", "MMddyyyy", CultureInfo.InvariantCulture);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
+            
+
             //utc
             var contractDate = new DateTimeOffset(2020, 10, 21, 13, 05, 20, TimeSpan.Zero);
 
