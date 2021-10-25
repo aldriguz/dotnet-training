@@ -36,6 +36,8 @@ namespace AspNetCoreDemo
                     await context.Response.WriteAsync("Hola mundillo!");
                 });
             });
+
+            //app.UseResponseCompression();
         }
     }
 }
