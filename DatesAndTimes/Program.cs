@@ -17,7 +17,8 @@ namespace DatesAndTimes
                 Console.WriteLine(ex.Message);
             }
             
-            
+            var yearFormatYY = DateTime.Now.Year%100;
+            var customYearFormatYY = 2024 % 100;
 
             //utc
             var contractDate = new DateTimeOffset(2020, 10, 21, 13, 05, 20, TimeSpan.Zero);
