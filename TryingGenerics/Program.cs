@@ -18,6 +18,12 @@ namespace TryingGenerics
                 Console.WriteLine(stack.Pop());
             }
             Console.WriteLine("Program finished!");
+
+
+            GenericRepository<int, int, bool> repository = new GenericRepository<int, int, bool>();
+            repository.Add(121);
+            repository.Add(8484);
+            repository.Save(); //will print everything
         }
     }
 }
