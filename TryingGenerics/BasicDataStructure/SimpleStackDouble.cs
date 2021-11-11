@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace TryingGenerics.BasicDataStructure
 {
-    internal class SimpleStack
+    internal class SimpleStackDouble
     {
         private readonly double[] _array;
         private int _index;
 
-        public SimpleStack(int quantity)
+        public SimpleStackDouble(int quantity)
         {
             _index = -1;
             _array = new double[quantity];

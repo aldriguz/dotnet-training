@@ -7,7 +7,7 @@ namespace TryingGenerics
     {
         static void Main(string[] args)
         {
-            SimpleStack stack = new SimpleStack(4);
+            SimpleStackDouble stack = new SimpleStackDouble(4);
             stack.Push(1);
             stack.Push(2);
             stack.Push(3);
