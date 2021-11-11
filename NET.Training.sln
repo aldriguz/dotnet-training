@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31229.75
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "benchmark.strings.compare", "benchmark.strings.compare\benchmark.strings.compare.csproj", "{183B7C45-B917-43CC-96B7-B7F795F447BB}"
 EndProject
@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeBook.Tests", "GradeBoo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeirdEnums", "WeirdEnums\WeirdEnums.csproj", "{59EDA01B-B4F0-405D-BC59-421F72B0B36A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeSystem", "TypeSystem\TypeSystem.csproj", "{15AB38CE-F9EA-4459-B558-AD70375EC72C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeSystem", "TypeSystem\TypeSystem.csproj", "{15AB38CE-F9EA-4459-B558-AD70375EC72C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryingGenerics", "TryingGenerics\TryingGenerics.csproj", "{DC618860-FB46-4259-A2D1-7CF85FE7FAF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{15AB38CE-F9EA-4459-B558-AD70375EC72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15AB38CE-F9EA-4459-B558-AD70375EC72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15AB38CE-F9EA-4459-B558-AD70375EC72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC618860-FB46-4259-A2D1-7CF85FE7FAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC618860-FB46-4259-A2D1-7CF85FE7FAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC618860-FB46-4259-A2D1-7CF85FE7FAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC618860-FB46-4259-A2D1-7CF85FE7FAF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
