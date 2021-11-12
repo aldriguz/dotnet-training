@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace TryingGenerics
 {
-    internal class GenericRepository<TItem, TKey, TSecret>
+    internal class GenericRepository<TItem, TKey, TSecret> //where TItem : class, IEquatable<TItem>, new()
     {
         List<TItem> _items;
+
+        //public TItem? GetById(int id)
+        //{
+        //    return null;
+        //}
 
         public GenericRepository()
         {
