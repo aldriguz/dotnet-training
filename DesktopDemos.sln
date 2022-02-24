@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopDemo.WinForms", "DesktopDemo.WinForms\DesktopDemo.WinForms.csproj", "{D2832125-28B0-4347-9B91-0CFF06A2D84F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopDemo.WinForms", "DesktopDemo\DesktopDemo.WinForms\DesktopDemo.WinForms.csproj", "{D2832125-28B0-4347-9B91-0CFF06A2D84F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesktopDemo.Wpf", "DesktopDemo.Wpf\DesktopDemo.Wpf.csproj", "{D1487F12-72C7-4DE3-A9F9-1B586CE7B42A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesktopDemo.Wpf", "DesktopDemo\DesktopDemo.Wpf\DesktopDemo.Wpf.csproj", "{D1487F12-72C7-4DE3-A9F9-1B586CE7B42A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopDemo.WinUi3", "DesktopDemo.WinUi3\DesktopDemo.WinUi3.csproj", "{D37DE0E4-2DA9-46E6-971C-46F1655FF339}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopDemo.WinUi3", "DesktopDemo\DesktopDemo.WinUi3\DesktopDemo.WinUi3.csproj", "{D37DE0E4-2DA9-46E6-971C-46F1655FF339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
