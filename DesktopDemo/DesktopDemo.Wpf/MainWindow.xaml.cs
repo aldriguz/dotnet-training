@@ -24,5 +24,12 @@ namespace DesktopDemo.Wpf
         {
             InitializeComponent();
         }
+
+        public void ChangeText()
+        {
+            this.myLabel1.Content = "Changed";
+        }
     }
+
+    
 }
