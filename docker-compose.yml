@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mongocatalog.webapi:
+    image: ${DOCKER_REGISTRY-}mongocatalogwebapi
+    build:
+      context: .
+      dockerfile: aspnet/MongoCatalog.WebApi/Dockerfile
