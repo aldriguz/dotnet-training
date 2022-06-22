@@ -61,9 +61,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices", "microservi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisBasket.Api", "microservices\RedisBasket.Api\RedisBasket.Api.csproj", "{6EA99FBD-7CE9-46FC-B177-A222CA56AF96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGraphqlApi", "graphql\SimpleGraphqlApi\SimpleGraphqlApi.csproj", "{00B3B0E8-20EA-4FFE-BA04-4B1655E16198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleGraphqlApi", "graphql\SimpleGraphqlApi\SimpleGraphqlApi.csproj", "{00B3B0E8-20EA-4FFE-BA04-4B1655E16198}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "graphql", "graphql", "{6E2F42AA-8ECD-4761-B9D0-E6D396AC70DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "advanced", "advanced", "{97E920A2-16B5-4386-9DA9-7FA9973698DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsBuild", "advanced\MsBuild\MsBuild.csproj", "{F281A217-2566-40B0-AB82-E4573589D639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +139,10 @@ Global
 		{00B3B0E8-20EA-4FFE-BA04-4B1655E16198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B3B0E8-20EA-4FFE-BA04-4B1655E16198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B3B0E8-20EA-4FFE-BA04-4B1655E16198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F281A217-2566-40B0-AB82-E4573589D639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F281A217-2566-40B0-AB82-E4573589D639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F281A217-2566-40B0-AB82-E4573589D639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F281A217-2566-40B0-AB82-E4573589D639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +151,7 @@ Global
 		{A7E17FCB-8A4A-4F80-97A8-2C02B4D15FCB} = {E7651B03-4E0E-4F0E-8374-61F8F59A6843}
 		{6EA99FBD-7CE9-46FC-B177-A222CA56AF96} = {9839B01A-543F-41DD-821C-60EFC565DF3C}
 		{00B3B0E8-20EA-4FFE-BA04-4B1655E16198} = {6E2F42AA-8ECD-4761-B9D0-E6D396AC70DD}
+		{F281A217-2566-40B0-AB82-E4573589D639} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B6FA85E-0164-494C-9731-F7C6DFFC974B}
