@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "MyFirstGrpcApi": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5048;https://localhost:7048",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

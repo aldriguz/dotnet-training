@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsBuild", "advanced\MsBuild
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows-services", "windows-services", "{D035B23B-A1A1-4DB2-8B8D-7C7F19ACA38C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapDemo", "windows-service\SoapDemo\SoapDemo.csproj", "{A1E75646-309E-4E49-8AC9-7EDFC88ED8F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoapDemo", "windows-service\SoapDemo\SoapDemo.csproj", "{A1E75646-309E-4E49-8AC9-7EDFC88ED8F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstGrpcApi", "grpc\MyFirstGrpcApi\MyFirstGrpcApi.csproj", "{0B84063A-9B9D-4401-87D0-93AF1D1FA473}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,6 +153,10 @@ Global
 		{A1E75646-309E-4E49-8AC9-7EDFC88ED8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1E75646-309E-4E49-8AC9-7EDFC88ED8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1E75646-309E-4E49-8AC9-7EDFC88ED8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B84063A-9B9D-4401-87D0-93AF1D1FA473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B84063A-9B9D-4401-87D0-93AF1D1FA473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B84063A-9B9D-4401-87D0-93AF1D1FA473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B84063A-9B9D-4401-87D0-93AF1D1FA473}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,6 +167,7 @@ Global
 		{00B3B0E8-20EA-4FFE-BA04-4B1655E16198} = {6E2F42AA-8ECD-4761-B9D0-E6D396AC70DD}
 		{F281A217-2566-40B0-AB82-E4573589D639} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
 		{A1E75646-309E-4E49-8AC9-7EDFC88ED8F9} = {D035B23B-A1A1-4DB2-8B8D-7C7F19ACA38C}
+		{0B84063A-9B9D-4401-87D0-93AF1D1FA473} = {D0ABEDF6-923E-4AAD-B29B-08B86C076BC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B6FA85E-0164-494C-9731-F7C6DFFC974B}
