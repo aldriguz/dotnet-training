@@ -73,7 +73,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows-services", "windows
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoapDemo", "windows-service\SoapDemo\SoapDemo.csproj", "{A1E75646-309E-4E49-8AC9-7EDFC88ED8F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstGrpcApi", "grpc\MyFirstGrpcApi\MyFirstGrpcApi.csproj", "{0B84063A-9B9D-4401-87D0-93AF1D1FA473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstGrpcApi", "grpc\MyFirstGrpcApi\MyFirstGrpcApi.csproj", "{0B84063A-9B9D-4401-87D0-93AF1D1FA473}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cli", "cli", "{7F7CBBF9-FB55-4252-8D12-A857584ACA2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nunit", "nunit", "{441DF1FE-4203-4A4C-B92A-D9D169391453}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nunit-cli", "cli\nunit\nunit-cli\nunit-cli.csproj", "{A9F77775-BD93-40B0-A523-9E56CEF2C580}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +166,10 @@ Global
 		{0B84063A-9B9D-4401-87D0-93AF1D1FA473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B84063A-9B9D-4401-87D0-93AF1D1FA473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B84063A-9B9D-4401-87D0-93AF1D1FA473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F77775-BD93-40B0-A523-9E56CEF2C580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F77775-BD93-40B0-A523-9E56CEF2C580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F77775-BD93-40B0-A523-9E56CEF2C580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F77775-BD93-40B0-A523-9E56CEF2C580}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -168,6 +181,8 @@ Global
 		{F281A217-2566-40B0-AB82-E4573589D639} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
 		{A1E75646-309E-4E49-8AC9-7EDFC88ED8F9} = {D035B23B-A1A1-4DB2-8B8D-7C7F19ACA38C}
 		{0B84063A-9B9D-4401-87D0-93AF1D1FA473} = {D0ABEDF6-923E-4AAD-B29B-08B86C076BC9}
+		{441DF1FE-4203-4A4C-B92A-D9D169391453} = {7F7CBBF9-FB55-4252-8D12-A857584ACA2C}
+		{A9F77775-BD93-40B0-A523-9E56CEF2C580} = {441DF1FE-4203-4A4C-B92A-D9D169391453}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B6FA85E-0164-494C-9731-F7C6DFFC974B}
