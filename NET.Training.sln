@@ -78,11 +78,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cli", "cli", "{7F7CBBF9-FB55-4252-8D12-A857584ACA2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nunit", "nunit", "{441DF1FE-4203-4A4C-B92A-D9D169391453}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nunit-cli", "cli\nunit\nunit-cli\nunit-cli.csproj", "{A9F77775-BD93-40B0-A523-9E56CEF2C580}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{4619963F-E536-4B8D-8EF2-BE28DF6FF78E}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nunit-cli", "cli\nunit\nunit-cli\nunit-cli.csproj", "{A9F77775-BD93-40B0-A523-9E56CEF2C580}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
