@@ -1,5 +1,12 @@
 ﻿using ServiceReferenceDemo;
 
+var proxy = new HelloEndpointClient();
+var request = new helloRequest
+{
+    Name = "aldriguz"
+};
 
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+var bodyRequest = new SayHello(request);
+
+var response = await proxy.SayHelloAsync(bodyRequest);
+Console.WriteLine(response.HelloResponse.Message);
