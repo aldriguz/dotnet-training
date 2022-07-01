@@ -1,4 +1,5 @@
 using ServiceLifetime.Interfaces;
+using ServiceLifetime.Middlewares;
 using ServiceLifetime.Service;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +11,10 @@ builder.Services.AddScoped<IScopedService, ScopedService>();
 
 builder.Services.AddControllers();
 
+
 var app = builder.Build();
+
+app.UseMiddleware<MyMiddleware>();
 
 app.UseHttpsRedirection();
 
