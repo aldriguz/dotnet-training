@@ -1,5 +1,6 @@
 ﻿using System.Xml;
 using System.Xml.Serialization;
+using XmlReaderProcessor;
 
 // See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
@@ -10,7 +11,7 @@ settings.IgnoreWhitespace = true;
 settings.ConformanceLevel = ConformanceLevel.Fragment;
 
 // Reading the file
-using XmlReader reader = XmlReader.Create("Files/XmlHelloKevin.xml", settings);
+using XmlReader reader = XmlReader.Create("Files/XmlAttributes.xml", settings);
 XmlSerializer serializer = new XmlSerializer(typeof(XmlSerializer));
 
 while (reader.Read())
@@ -25,6 +26,11 @@ while (reader.Read())
     else if (reader.NodeType == XmlNodeType.Text)
     {
         Console.Write(" Value=" + reader.Value);
+    }
+
+    if(reader.NodeType == XmlNodeType.Element && reader.NodeType.ToString() == "Message1")
+    {
+        ReadingAttributes.ReadAttributesFromReader(reader);
     }
     Console.WriteLine();
 }
