@@ -86,11 +86,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution items", "_Solutio
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLifetime", "advanced\ServiceLifetime\ServiceLifetime.csproj", "{6E469115-F92C-476A-82D8-5E50C07EF4E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLifetime", "advanced\ServiceLifetime\ServiceLifetime.csproj", "{6E469115-F92C-476A-82D8-5E50C07EF4E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApi", "webapi\MinimalApi\MinimalApi.csproj", "{D9FBB31A-F07C-41B6-821E-2BDDB760DA02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApi", "webapi\MinimalApi\MinimalApi.csproj", "{D9FBB31A-F07C-41B6-821E-2BDDB760DA02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicApi", "webapi\BasicApi\BasicApi.csproj", "{D2E1C591-F9E0-4F6F-A868-B83F23F76727}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicApi", "webapi\BasicApi\BasicApi.csproj", "{D2E1C591-F9E0-4F6F-A868-B83F23F76727}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "basic", "basic", "{0713832F-A856-4632-A56A-D1741FB08841}"
 EndProject
@@ -100,7 +100,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c11", "c11", "{BD535D94-6F4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "streams-io", "streams-io", "{F13FBEB5-E989-485B-A8D3-204343A8879D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesTouchbase", "streams-io\FilesTouchbase\FilesTouchbase.csproj", "{7C3A548D-29AA-4C4C-83DB-91B712AC88AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilesTouchbase", "streams-io\FilesTouchbase\FilesTouchbase.csproj", "{7C3A548D-29AA-4C4C-83DB-91B712AC88AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmark", "benchmark", "{59932A75-4777-412A-9F91-E8DCFF7515E1}"
 EndProject
@@ -116,7 +116,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "linq", "linq", "{A33A48FF-3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "framework", "framework", "{6FEECA36-2453-4139-9522-B69069385DA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlReader", "streams-io\XmlReader\XmlReader.csproj", "{383BCF86-33D9-4BE4-A7BC-434583464197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlReader", "streams-io\XmlReader\XmlReader.csproj", "{383BCF86-33D9-4BE4-A7BC-434583464197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDocumentProcessor", "streams-io\XmlDocument\XmlDocumentProcessor.csproj", "{03BD2DE0-DA14-4E09-B7E4-4F307C1B4CA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -224,6 +226,10 @@ Global
 		{383BCF86-33D9-4BE4-A7BC-434583464197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{383BCF86-33D9-4BE4-A7BC-434583464197}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{383BCF86-33D9-4BE4-A7BC-434583464197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BD2DE0-DA14-4E09-B7E4-4F307C1B4CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BD2DE0-DA14-4E09-B7E4-4F307C1B4CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BD2DE0-DA14-4E09-B7E4-4F307C1B4CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BD2DE0-DA14-4E09-B7E4-4F307C1B4CA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -257,6 +263,7 @@ Global
 		{7C3A548D-29AA-4C4C-83DB-91B712AC88AD} = {F13FBEB5-E989-485B-A8D3-204343A8879D}
 		{2C7C3519-00DE-442B-A1A0-19F9C77160F1} = {4F0CE325-7896-41BE-A18B-2DBE41E92780}
 		{383BCF86-33D9-4BE4-A7BC-434583464197} = {F13FBEB5-E989-485B-A8D3-204343A8879D}
+		{03BD2DE0-DA14-4E09-B7E4-4F307C1B4CA6} = {F13FBEB5-E989-485B-A8D3-204343A8879D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B6FA85E-0164-494C-9731-F7C6DFFC974B}
