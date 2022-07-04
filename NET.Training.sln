@@ -116,6 +116,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "linq", "linq", "{A33A48FF-3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "framework", "framework", "{6FEECA36-2453-4139-9522-B69069385DA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlReader", "streams-io\XmlReader\XmlReader.csproj", "{383BCF86-33D9-4BE4-A7BC-434583464197}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -218,6 +220,10 @@ Global
 		{7C3A548D-29AA-4C4C-83DB-91B712AC88AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C3A548D-29AA-4C4C-83DB-91B712AC88AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C3A548D-29AA-4C4C-83DB-91B712AC88AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383BCF86-33D9-4BE4-A7BC-434583464197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383BCF86-33D9-4BE4-A7BC-434583464197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383BCF86-33D9-4BE4-A7BC-434583464197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383BCF86-33D9-4BE4-A7BC-434583464197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -250,6 +256,7 @@ Global
 		{BD535D94-6F4D-4EE1-9471-8747E92DB406} = {A2273920-952C-454C-ACB2-2F05EA625F0F}
 		{7C3A548D-29AA-4C4C-83DB-91B712AC88AD} = {F13FBEB5-E989-485B-A8D3-204343A8879D}
 		{2C7C3519-00DE-442B-A1A0-19F9C77160F1} = {4F0CE325-7896-41BE-A18B-2DBE41E92780}
+		{383BCF86-33D9-4BE4-A7BC-434583464197} = {F13FBEB5-E989-485B-A8D3-204343A8879D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B6FA85E-0164-494C-9731-F7C6DFFC974B}
