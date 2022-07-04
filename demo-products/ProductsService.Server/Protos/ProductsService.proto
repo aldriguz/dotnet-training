@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "ProductsService.Server.Protos";
+
+// this is like methods
+service ProductsService {
+	rpc GetProductsById(ProductRequest request) returns (Product);
+}
+
+// representation of classes called = contracts
+message ProductRequest{
+	int32 id = 1;
+}
+
+message Product{
+	int32 id = 1;
+	string name = 2;
+	double price = 3;
+	Category Category = 4;
+	bool isAvailable = 5;
+}
+
+// you can also define enums
+enum Category{
+	Books = 0;
+	Food = 1;
+}
