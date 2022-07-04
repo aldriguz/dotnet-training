@@ -11,6 +11,7 @@ namespace XmlReaderProcessor
     {
         public static void ReadAttributesFromReader(XmlReader reader)
         {
+            Console.Write(" Attribute Content=" + reader["_ID"]);
             Console.Write(" Name=" + reader.Name);
         }
     }

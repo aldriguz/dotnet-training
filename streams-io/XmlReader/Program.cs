@@ -28,7 +28,7 @@ while (reader.Read())
         Console.Write(" Value=" + reader.Value);
     }
 
-    if(reader.NodeType == XmlNodeType.Element && reader.NodeType.ToString() == "Message1")
+    if(reader.NodeType == XmlNodeType.Element && reader.Name == "Message1")
     {
         ReadingAttributes.ReadAttributesFromReader(reader);
     }
