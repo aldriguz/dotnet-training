@@ -1,0 +1,9 @@
+﻿<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <HelloResponse xmlns="http://learnwebservices.com/services/hello">
+      <Message1 _ID="-1" DateTime="2022-06-27T12:28:11Z" _Description="Error!!">This is error 1</Message1>
+      <Message2 _ID="-2" DateTime="2022-06-27T12:28:11Z" _Description="Error!!">This is error 2</Message2>
+      <Message3 _ID="-3" DateTime="2022-06-27T12:28:11Z" _Description="Error!!">This is error 3</Message3>
+    </HelloResponse>
+  </soap:Body>
+</soap:Envelope>

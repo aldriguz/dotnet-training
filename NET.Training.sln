@@ -116,7 +116,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "linq", "linq", "{A33A48FF-3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "framework", "framework", "{6FEECA36-2453-4139-9522-B69069385DA9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlReader", "streams-io\XmlReader\XmlReader.csproj", "{383BCF86-33D9-4BE4-A7BC-434583464197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlReaderProcessor", "streams-io\XmlReader\XmlReaderProcessor.csproj", "{383BCF86-33D9-4BE4-A7BC-434583464197}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDocumentProcessor", "streams-io\XmlDocument\XmlDocumentProcessor.csproj", "{03BD2DE0-DA14-4E09-B7E4-4F307C1B4CA6}"
 EndProject
