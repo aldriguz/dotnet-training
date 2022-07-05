@@ -1,10 +1,10 @@
 syntax = "proto3";
 
-option csharp_namespace = "ProductsService.Server.Protos";
+option csharp_namespace = "ProductProto";
 
 // this is like methods
 service ProductsService {
-	rpc GetProductsById(ProductRequest request) returns (Product);
+	rpc GetProductsById(ProductRequest) returns (Product);
 }
 
 // representation of classes called = contracts
