@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @if(SignInManager.IsSignedIn(User))
+        {
+            <p>Logged</p>
+        }
+        else
+        {
+            <p>Not logged</p>
+            <a href="/identity/account/login">Go to Login</a>
+        }
+    </div>
+</body>
+</html>

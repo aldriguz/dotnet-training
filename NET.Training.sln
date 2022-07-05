@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBackgroundService", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService", "windows-service\WorkerService\WorkerService.csproj", "{745F7261-10D0-4A4D-B4B2-1505CF098D56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityV1", "razor\IdentityV1\IdentityV1.csproj", "{FCD1EDF7-277A-462B-88D1-64F8A8790700}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -259,6 +261,10 @@ Global
 		{745F7261-10D0-4A4D-B4B2-1505CF098D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{745F7261-10D0-4A4D-B4B2-1505CF098D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{745F7261-10D0-4A4D-B4B2-1505CF098D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD1EDF7-277A-462B-88D1-64F8A8790700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD1EDF7-277A-462B-88D1-64F8A8790700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD1EDF7-277A-462B-88D1-64F8A8790700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD1EDF7-277A-462B-88D1-64F8A8790700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -298,6 +304,7 @@ Global
 		{7F0EA689-1078-416D-9E87-DD09B4A7B1A9} = {A7D894D0-87EE-449F-A05A-E10317A0A7D0}
 		{3EB031EE-31CA-4855-8652-B8E203C427B5} = {D035B23B-A1A1-4DB2-8B8D-7C7F19ACA38C}
 		{745F7261-10D0-4A4D-B4B2-1505CF098D56} = {D035B23B-A1A1-4DB2-8B8D-7C7F19ACA38C}
+		{FCD1EDF7-277A-462B-88D1-64F8A8790700} = {74DDFCFF-307E-49CA-9E95-D16042D415D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B6FA85E-0164-494C-9731-F7C6DFFC974B}
