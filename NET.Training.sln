@@ -135,7 +135,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityV1", "razor\Identit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "creational", "creational", "{0FE14E8E-C412-442D-8F7C-367FAD5898B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.Logistics", "design-patterns\creational\Factory.Logistics\Factory.Logistics.csproj", "{3D7CD459-96BE-4BCD-B931-708A0420D946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.Logistics", "design-patterns\creational\Factory.Logistics\Factory.Logistics.csproj", "{3D7CD459-96BE-4BCD-B931-708A0420D946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCondition", "advance\RaceCondition\RaceCondition.csproj", "{D19C341D-2069-4B3B-81F6-52043B10D5A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,6 +273,10 @@ Global
 		{3D7CD459-96BE-4BCD-B931-708A0420D946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D7CD459-96BE-4BCD-B931-708A0420D946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D7CD459-96BE-4BCD-B931-708A0420D946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19C341D-2069-4B3B-81F6-52043B10D5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19C341D-2069-4B3B-81F6-52043B10D5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19C341D-2069-4B3B-81F6-52043B10D5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19C341D-2069-4B3B-81F6-52043B10D5A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -313,6 +319,7 @@ Global
 		{FCD1EDF7-277A-462B-88D1-64F8A8790700} = {74DDFCFF-307E-49CA-9E95-D16042D415D2}
 		{0FE14E8E-C412-442D-8F7C-367FAD5898B5} = {78EAF29E-8BE3-42EC-9EDB-AADE882EC992}
 		{3D7CD459-96BE-4BCD-B931-708A0420D946} = {0FE14E8E-C412-442D-8F7C-367FAD5898B5}
+		{D19C341D-2069-4B3B-81F6-52043B10D5A3} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B6FA85E-0164-494C-9731-F7C6DFFC974B}
