@@ -139,9 +139,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.Logistics", "design
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaceCondition", "advance\RaceCondition\RaceCondition.csproj", "{D19C341D-2069-4B3B-81F6-52043B10D5A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynDemos", "advanced\AsynDemos\AsynDemos.csproj", "{0D07EBEF-0801-49C6-9273-036E23BF2BB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncDemos", "advanced\AsynDemos\AsyncDemos.csproj", "{0D07EBEF-0801-49C6-9273-036E23BF2BB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet.Demo", "advanced\HashSet.Demo\HashSet.Demo.csproj", "{D4B7F3CE-B7F9-403F-B7A1-8AFDD39770A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSet.Demo", "advanced\HashSet.Demo\HashSet.Demo.csproj", "{D4B7F3CE-B7F9-403F-B7A1-8AFDD39770A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumeratorsDemo", "advanced\EnumeratorsDemo\EnumeratorsDemo.csproj", "{9C8AB81B-2CB7-4066-AB5A-91C972D63510}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -289,6 +291,10 @@ Global
 		{D4B7F3CE-B7F9-403F-B7A1-8AFDD39770A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4B7F3CE-B7F9-403F-B7A1-8AFDD39770A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4B7F3CE-B7F9-403F-B7A1-8AFDD39770A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8AB81B-2CB7-4066-AB5A-91C972D63510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8AB81B-2CB7-4066-AB5A-91C972D63510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8AB81B-2CB7-4066-AB5A-91C972D63510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8AB81B-2CB7-4066-AB5A-91C972D63510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -334,6 +340,7 @@ Global
 		{D19C341D-2069-4B3B-81F6-52043B10D5A3} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
 		{0D07EBEF-0801-49C6-9273-036E23BF2BB5} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
 		{D4B7F3CE-B7F9-403F-B7A1-8AFDD39770A5} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
+		{9C8AB81B-2CB7-4066-AB5A-91C972D63510} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B6FA85E-0164-494C-9731-F7C6DFFC974B}
