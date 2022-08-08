@@ -143,7 +143,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncDemos", "advanced\Asyn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSet.Demo", "advanced\HashSet.Demo\HashSet.Demo.csproj", "{D4B7F3CE-B7F9-403F-B7A1-8AFDD39770A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumeratorsDemo", "advanced\EnumeratorsDemo\EnumeratorsDemo.csproj", "{9C8AB81B-2CB7-4066-AB5A-91C972D63510}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumeratorsDemo", "advanced\EnumeratorsDemo\EnumeratorsDemo.csproj", "{9C8AB81B-2CB7-4066-AB5A-91C972D63510}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "efcore", "efcore", "{C1905724-7556-43C4-81D4-EB1C5472ED9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
