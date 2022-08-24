@@ -3,31 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "benchmark.strings.compare", "benchmark.strings.compare\benchmark.strings.compare.csproj", "{183B7C45-B917-43CC-96B7-B7F795F447BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "benchmark.strings.compare", "advanced\benchmark.strings.compare\benchmark.strings.compare.csproj", "{183B7C45-B917-43CC-96B7-B7F795F447BB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatesAndTimes", "DatesAndTimes\DatesAndTimes.csproj", "{8EB06357-E4CB-4CFC-91DC-C2626823FBC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatesAndTimes", "fundamentals\DatesAndTimes\DatesAndTimes.csproj", "{8EB06357-E4CB-4CFC-91DC-C2626823FBC5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{8C7EB976-ED0C-4CC4-BB28-44DA96550A5C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq.introduction", "linq.introduction\linq.introduction.csproj", "{051ECD91-D881-40E1-8819-465BEDD316FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq.introduction", "linq\linq.introduction\linq.introduction.csproj", "{051ECD91-D881-40E1-8819-465BEDD316FA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.concepts", "poo.concepts\poo.concepts.csproj", "{B871A80B-0EB6-49BC-8A4D-25F88D81530E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.concepts", "oop\poo.concepts\poo.concepts.csproj", "{B871A80B-0EB6-49BC-8A4D-25F88D81530E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.constructors", "poo.constructors\poo.constructors.csproj", "{1F208297-F21B-46D0-A5E4-DF9CCFD9540C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.constructors", "oop\poo.constructors\poo.constructors.csproj", "{1F208297-F21B-46D0-A5E4-DF9CCFD9540C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeBook", "GradeBook\GradeBook.csproj", "{75828F32-AA36-4FF3-8CEF-77D11CE0BDB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeBook", "oop\GradeBook\GradeBook.csproj", "{75828F32-AA36-4FF3-8CEF-77D11CE0BDB7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeBook.Tests", "GradeBook.Tests\GradeBook.Tests.csproj", "{4A69DC83-D6E6-483B-9C84-8593FA6CDF6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeBook.Tests", "oop\GradeBook.Tests\GradeBook.Tests.csproj", "{4A69DC83-D6E6-483B-9C84-8593FA6CDF6B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeirdEnums", "WeirdEnums\WeirdEnums.csproj", "{59EDA01B-B4F0-405D-BC59-421F72B0B36A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeirdEnums", "fundamentals\WeirdEnums\WeirdEnums.csproj", "{59EDA01B-B4F0-405D-BC59-421F72B0B36A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeSystem", "TypeSystem\TypeSystem.csproj", "{15AB38CE-F9EA-4459-B558-AD70375EC72C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeSystem", "fundamentals\TypeSystem\TypeSystem.csproj", "{15AB38CE-F9EA-4459-B558-AD70375EC72C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryingGenerics", "TryingGenerics\TryingGenerics.csproj", "{DC618860-FB46-4259-A2D1-7CF85FE7FAF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryingGenerics", "fundamentals\TryingGenerics\TryingGenerics.csproj", "{DC618860-FB46-4259-A2D1-7CF85FE7FAF9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesAndDeeper", "DelegatesAndDeeper\DelegatesAndDeeper.csproj", "{FCF07910-23E5-4255-973B-D6496BF7AB20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesAndDeeper", "advanced\DelegatesAndDeeper\DelegatesAndDeeper.csproj", "{FCF07910-23E5-4255-973B-D6496BF7AB20}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net6Features", "Net6Features\Net6Features.csproj", "{CA8D0126-921F-4299-ADE0-D0EF7872C7DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net6Features", "framework\Net6Features\Net6Features.csproj", "{CA8D0126-921F-4299-ADE0-D0EF7872C7DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapi", "webapi", "{E7651B03-4E0E-4F0E-8374-61F8F59A6843}"
 EndProject
@@ -92,7 +92,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApi", "webapi\Minima
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicApi", "webapi\BasicApi\BasicApi.csproj", "{D2E1C591-F9E0-4F6F-A868-B83F23F76727}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "basic", "basic", "{0713832F-A856-4632-A56A-D1741FB08841}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fundamentals", "fundamentals", "{0713832F-A856-4632-A56A-D1741FB08841}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{A2273920-952C-454C-ACB2-2F05EA625F0F}"
 EndProject
@@ -104,9 +104,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilesTouchbase", "streams-i
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmark", "benchmark", "{59932A75-4777-412A-9F91-E8DCFF7515E1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "poo", "poo", "{4F0CE325-7896-41BE-A18B-2DBE41E92780}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gradebook", "gradebook", "{2C7C3519-00DE-442B-A1A0-19F9C77160F1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "oop", "oop", "{4F0CE325-7896-41BE-A18B-2DBE41E92780}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "design-patterns", "design-patterns", "{78EAF29E-8BE3-42EC-9EDB-AADE882EC992}"
 EndProject
@@ -127,7 +125,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo-products", "demo-produ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsService.Client", "grpc\demo-products\ProductsService.Client\ProductsService.Client.csproj", "{7F0EA689-1078-416D-9E87-DD09B4A7B1A9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleBackgroundService", "windows-services\ConsoleBackgroundService\ConsoleBackgroundService.csproj", "{3EB031EE-31CA-4855-8652-B8E203C427B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleBackgroundService", "windows-service\ConsoleBackgroundService\ConsoleBackgroundService.csproj", "{3EB031EE-31CA-4855-8652-B8E203C427B5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerService", "windows-service\WorkerService\WorkerService.csproj", "{745F7261-10D0-4A4D-B4B2-1505CF098D56}"
 EndProject
@@ -308,8 +306,8 @@ Global
 		{051ECD91-D881-40E1-8819-465BEDD316FA} = {A33A48FF-39F2-4138-ADF9-8B1EA00B44A2}
 		{B871A80B-0EB6-49BC-8A4D-25F88D81530E} = {4F0CE325-7896-41BE-A18B-2DBE41E92780}
 		{1F208297-F21B-46D0-A5E4-DF9CCFD9540C} = {4F0CE325-7896-41BE-A18B-2DBE41E92780}
-		{75828F32-AA36-4FF3-8CEF-77D11CE0BDB7} = {2C7C3519-00DE-442B-A1A0-19F9C77160F1}
-		{4A69DC83-D6E6-483B-9C84-8593FA6CDF6B} = {2C7C3519-00DE-442B-A1A0-19F9C77160F1}
+		{75828F32-AA36-4FF3-8CEF-77D11CE0BDB7} = {4F0CE325-7896-41BE-A18B-2DBE41E92780}
+		{4A69DC83-D6E6-483B-9C84-8593FA6CDF6B} = {4F0CE325-7896-41BE-A18B-2DBE41E92780}
 		{59EDA01B-B4F0-405D-BC59-421F72B0B36A} = {0713832F-A856-4632-A56A-D1741FB08841}
 		{15AB38CE-F9EA-4459-B558-AD70375EC72C} = {0713832F-A856-4632-A56A-D1741FB08841}
 		{DC618860-FB46-4259-A2D1-7CF85FE7FAF9} = {0713832F-A856-4632-A56A-D1741FB08841}
@@ -328,7 +326,6 @@ Global
 		{D2E1C591-F9E0-4F6F-A868-B83F23F76727} = {E7651B03-4E0E-4F0E-8374-61F8F59A6843}
 		{BD535D94-6F4D-4EE1-9471-8747E92DB406} = {A2273920-952C-454C-ACB2-2F05EA625F0F}
 		{7C3A548D-29AA-4C4C-83DB-91B712AC88AD} = {F13FBEB5-E989-485B-A8D3-204343A8879D}
-		{2C7C3519-00DE-442B-A1A0-19F9C77160F1} = {4F0CE325-7896-41BE-A18B-2DBE41E92780}
 		{383BCF86-33D9-4BE4-A7BC-434583464197} = {F13FBEB5-E989-485B-A8D3-204343A8879D}
 		{03BD2DE0-DA14-4E09-B7E4-4F307C1B4CA6} = {F13FBEB5-E989-485B-A8D3-204343A8879D}
 		{AE1D4B34-5971-417A-84F7-1A06C27086DD} = {A7D894D0-87EE-449F-A05A-E10317A0A7D0}
