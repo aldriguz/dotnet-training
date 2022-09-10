@@ -10,7 +10,7 @@ namespace ConsoleExplore
             Console.ForegroundColor = ConsoleColor.Red; //text color
             Console.Title = "Personalizado";
             Console.WriteLine($"Tamaño de ventana: {Console.WindowHeight}x{Console.WindowWidth}");
-            string input = "";
+            string input = string.Empty;
 
             do
             {
