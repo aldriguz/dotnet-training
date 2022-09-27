@@ -17,4 +17,3 @@ dotnet new webapi
 
 #get list of commands to create
 dotnet new we -l
-
