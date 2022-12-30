@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "nunit-cli": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:52475;http://localhost:52476"
+    }
+  }
+}

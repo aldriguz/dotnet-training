@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "TryingGenerics": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:52460;http://localhost:52466"
+    }
+  }
+}

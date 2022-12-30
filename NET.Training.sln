@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "benchmark.strings.compare", "advanced\benchmark.strings.compare\benchmark.strings.compare.csproj", "{183B7C45-B917-43CC-96B7-B7F795F447BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringsCompare", "benchmarks\StringsCompare\StringsCompare.csproj", "{183B7C45-B917-43CC-96B7-B7F795F447BB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatesAndTimes", "fundamentals\DatesAndTimes\DatesAndTimes.csproj", "{8EB06357-E4CB-4CFC-91DC-C2626823FBC5}"
 EndProject
@@ -144,6 +144,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumeratorsDemo", "advanced\EnumeratorsDemo\EnumeratorsDemo.csproj", "{9C8AB81B-2CB7-4066-AB5A-91C972D63510}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "efcore", "efcore", "{C1905724-7556-43C4-81D4-EB1C5472ED9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsBasics", "oop\GenericsBasics\GenericsBasics.csproj", "{4CFB8DE2-C0D2-4449-8ACD-66CADDC33534}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsBenchmark", "benchmarks\CollectionsBenchmark\CollectionsBenchmark.csproj", "{311D4B0C-E7B2-4DA8-A435-43BA1FBDDA54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloBenchmark", "benchmarks\HelloBenchmark\HelloBenchmark.csproj", "{878ED363-E714-49DB-B704-22176F09BB74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -295,6 +301,18 @@ Global
 		{9C8AB81B-2CB7-4066-AB5A-91C972D63510}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C8AB81B-2CB7-4066-AB5A-91C972D63510}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C8AB81B-2CB7-4066-AB5A-91C972D63510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFB8DE2-C0D2-4449-8ACD-66CADDC33534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFB8DE2-C0D2-4449-8ACD-66CADDC33534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFB8DE2-C0D2-4449-8ACD-66CADDC33534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFB8DE2-C0D2-4449-8ACD-66CADDC33534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311D4B0C-E7B2-4DA8-A435-43BA1FBDDA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311D4B0C-E7B2-4DA8-A435-43BA1FBDDA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311D4B0C-E7B2-4DA8-A435-43BA1FBDDA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311D4B0C-E7B2-4DA8-A435-43BA1FBDDA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878ED363-E714-49DB-B704-22176F09BB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878ED363-E714-49DB-B704-22176F09BB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878ED363-E714-49DB-B704-22176F09BB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878ED363-E714-49DB-B704-22176F09BB74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -340,6 +358,9 @@ Global
 		{0D07EBEF-0801-49C6-9273-036E23BF2BB5} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
 		{D4B7F3CE-B7F9-403F-B7A1-8AFDD39770A5} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
 		{9C8AB81B-2CB7-4066-AB5A-91C972D63510} = {97E920A2-16B5-4386-9DA9-7FA9973698DC}
+		{4CFB8DE2-C0D2-4449-8ACD-66CADDC33534} = {4F0CE325-7896-41BE-A18B-2DBE41E92780}
+		{311D4B0C-E7B2-4DA8-A435-43BA1FBDDA54} = {59932A75-4777-412A-9F91-E8DCFF7515E1}
+		{878ED363-E714-49DB-B704-22176F09BB74} = {59932A75-4777-412A-9F91-E8DCFF7515E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B6FA85E-0164-494C-9731-F7C6DFFC974B}
