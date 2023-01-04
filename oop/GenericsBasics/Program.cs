@@ -1,5 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+var myBaseObject = new BaseClass()
+{
+    Field1 = "Value1",
+    Field2 = "Value2",
+    Field3 = "Value3",
+    Field4 = "Value4",
+    Field5 = "Value5"
+};
 
-//Crear una clase que emule lo de intelliflo y sus clases, instancia de una clase de orden inferior a nivel de herencia e intentar usar una propiedad que no esta disponible
-// Se puede instanciar una clase de orden menor?
+var myExtendedObject = new ExtendedClass()
+{
+    UniqueField1 = "Unique1",
+};
+
+Console.WriteLine($"ExtendedClass matchs BaseClass: {ClassValidator.ExtendedClassValidator(myExtendedObject)}");
