@@ -1,7 +1,7 @@
 
 namespace Interfaces.Abstracts;
 
-public abstract class AbstractPolygon 
+public abstract class AbstractPolygon
 {
     public int SidesNumber { get; set; }
     public int SideLength { get; set; }

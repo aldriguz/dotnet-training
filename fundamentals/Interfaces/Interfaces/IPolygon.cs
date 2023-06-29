@@ -1,7 +1,7 @@
 
 namespace Interfaces.Interfaces;
 
-public interface IPolygon 
+public interface IPolygon
 {
     int SidesNumber { get; set; }
     int SideLength { get; set; }
