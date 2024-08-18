@@ -1,3 +1,6 @@
+using HttpClientFactory.Clients;
+using Refit;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,6 +17,12 @@ builder.Services.AddHttpClient("PokemonType", httpClient =>
 {
     httpClient.BaseAddress = new Uri("https://pokeapi.co/api/v2/type/");
 });
+builder.Services.AddHttpClient<IPokemonClient, PokemonClient>();
+builder.Services.AddRefitClient<IPokedexClient>()
+    .ConfigureHttpClient( client => {
+        // Set the base address of the named client.
+        client.BaseAddress = new Uri("https://pokeapi.co/api/v2/pokemon/");
+    });
 
 var app = builder.Build();
 

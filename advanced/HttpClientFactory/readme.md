@@ -10,5 +10,5 @@ This app shows how to use HttpClientFactory
 - Common httpClient implementation
 - Basic httpClient implementation using HttpClientFactory
 - Named httpClient implementation using HttpClientFactory
-- Typed httpClient implementation using HttpClientFactory (TODO)
-- Generated httpClient implementation using HttpClientFactory (TODO)
+- Typed httpClient implementation using HttpClientFactory
+- Generated httpClient implementation using HttpClientFactory
