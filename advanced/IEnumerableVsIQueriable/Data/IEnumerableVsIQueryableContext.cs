@@ -3,9 +3,9 @@ using IEnumerableVsIQueriable.Model;
 
 namespace IEnumerableVsIQueriable.Data
 {
-    public class IEnumerableVsIQueriableContext : DbContext
+    public class IEnumerableVsIQueryableContext : DbContext
     {
-        public IEnumerableVsIQueriableContext (DbContextOptions<IEnumerableVsIQueriableContext> options)
+        public IEnumerableVsIQueryableContext (DbContextOptions<IEnumerableVsIQueryableContext> options)
             : base(options)
         {
         }

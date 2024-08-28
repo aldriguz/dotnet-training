@@ -9,9 +9,9 @@ namespace IEnumerableVsIQueriable.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        private readonly IEnumerableVsIQueriableContext _context;
+        private readonly IEnumerableVsIQueryableContext _context;
 
-        public OrdersController(IEnumerableVsIQueriableContext context)
+        public OrdersController(IEnumerableVsIQueryableContext context)
         {
             _context = context;
         }

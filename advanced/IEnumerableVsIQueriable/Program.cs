@@ -8,8 +8,8 @@ namespace IEnumerableVsIQueriable
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddDbContext<IEnumerableVsIQueriableContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("IEnumerableVsIQueriableContext") ?? throw new InvalidOperationException("Connection string 'IEnumerableVsIQueriableContext' not found.")));
+            builder.Services.AddDbContext<IEnumerableVsIQueryableContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("IEnumerableVsIQueryable") ?? throw new InvalidOperationException("Connection string 'IEnumerableVsIQueryable' not found.")));
 
             // Add services to the container.
 
