@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BinaryExpression": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
