@@ -7,7 +7,13 @@
 
 <p role="status">Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="IncrementCount">Increment</button>
+<button class="btn btn-primary" @onclick="() => currentCount--">Decrement</button>
+
+@if(currentCount > 100)
+{
+    <p>Your win!! Reached 100 points</p>
+}
 
 @code {
     private int currentCount = 0;
