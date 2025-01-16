@@ -1,0 +1,6 @@
+@IEnumerableVsIQueriable_HostAddress = http://localhost:5079
+
+GET {{IEnumerableVsIQueriable_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
