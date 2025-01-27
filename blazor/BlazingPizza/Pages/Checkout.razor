@@ -3,9 +3,10 @@
 @inject OrderState OrderState
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
+@implements IDisposable
 
 <div class="main">
-    <EditForm Model=Order.DeliveryAddress OnValidSubmit=PlaceOrder>
+    <EditForm EditContext=editContext OnValidSubmit=PlaceOrder>
         <div class="checkout-cols">
             <div class="checkout-order-details">
                 <h4>Review order</h4>
@@ -32,7 +33,6 @@
 @code {
     private EditContext editContext;
     Order Order => OrderState.Order;
-    bool isSubmitting;
     bool isError = false;
 
     protected override void OnInitialized()
@@ -49,11 +49,8 @@
 
     async Task PlaceOrder()
     {
-        isError = false;
-        isSubmitting = true;
-        var response = await HttpClient.PostAsJsonAsync(
-            $"{NavigationManager.BaseUri}orders", OrderState.Order);
-        var newOrderId= await response.Content.ReadFromJsonAsync<int>();
+        var response = await HttpClient.PostAsJsonAsync(NavigationManager.BaseUri + "orders", OrderState.Order);
+        var newOrderId = await response.Content.ReadFromJsonAsync<int>();
         OrderState.ResetOrder();
         NavigationManager.NavigateTo($"myorders/{newOrderId}");
     }
@@ -61,5 +58,10 @@
     protected void ShowError()
     {
         isError = true;
+    }
+
+    public void Dispose()
+    {
+        editContext.OnFieldChanged -= HandleFieldChanged;
     }
 }
