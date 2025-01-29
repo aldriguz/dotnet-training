@@ -1,6 +1,7 @@
 @page "/myorders/{orderId:int}"
 @inject NavigationManager NavigationManager
 @inject HttpClient HttpClient
+@implements IDisposable
 
 <div class="main">
     @if (invalidOrder)
@@ -34,16 +35,22 @@
             </div>
             <div class="track-order-body">
                 <div class="track-order-details">
-                  @foreach (var pizza in orderWithStatus.Order.Pizzas)
-                  {
-                      <p>
-                          <strong>
-                              @(pizza.Size)"
-                              @pizza.Special.Name
-                              (£@pizza.GetFormattedTotalPrice())
-                          </strong>
-                      </p>
-                  }
+                    @if (IsOrderIncomplete)
+                    {
+                        <div class="spinner-grow text-danger float-right" role="status">
+                            <span class="sr-only">Checking your order status...</span>
+                        </div>
+                    }   
+                    @foreach (var pizza in orderWithStatus.Order.Pizzas)
+                    {
+                        <p>
+                            <strong>
+                                @(pizza.Size)"
+                                @pizza.Special.Name
+                                (£@pizza.GetFormattedTotalPrice())
+                            </strong>
+                        </p>
+                    }
                 </div>
             </div>
         </div>
@@ -52,21 +59,39 @@
 
 @code {
     [Parameter] public int OrderId { get; set; }
-
+    bool IsOrderIncomplete => orderWithStatus is null || orderWithStatus.IsDelivered == false;
+    PeriodicTimer timer = new(TimeSpan.FromSeconds(3));
     OrderWithStatus orderWithStatus;
     bool invalidOrder = false;
 
-    protected override async Task OnParametersSetAsync()
+    protected override async Task OnParametersSetAsync() =>
+        await GetLatestOrderStatusUpdatesAsync();
+
+    protected override Task OnAfterRenderAsync(bool firstRender) =>
+        firstRender ? StartPollingTimerAsync() : Task.CompletedTask;
+
+    async Task GetLatestOrderStatusUpdatesAsync()
     {
-      try
-      {
-          orderWithStatus = await HttpClient.GetFromJsonAsync<OrderWithStatus>(
-              $"{NavigationManager.BaseUri}orders/{OrderId}");
-      }
-      catch (Exception ex)
-      {
-          invalidOrder = true;
-          Console.Error.WriteLine(ex);
-      }
+        try
+        {
+            orderWithStatus = await HttpClient.GetFromJsonAsync<OrderWithStatus>(
+                $"{NavigationManager.BaseUri}orders/{OrderId}");
+        }
+        catch (Exception ex)
+        {
+            invalidOrder = true;
+            Console.Error.WriteLine(ex);
+        }
     }
+
+    async Task StartPollingTimerAsync()
+    {
+        while (IsOrderIncomplete && await timer.WaitForNextTickAsync())
+        {
+            await GetLatestOrderStatusUpdatesAsync();
+            StateHasChanged();
+        }
+    }
+
+    public void Dispose() => timer.Dispose();
 }
