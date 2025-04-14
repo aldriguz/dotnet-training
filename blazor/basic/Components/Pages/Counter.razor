@@ -7,8 +7,8 @@
 
 <p role="status">Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Increment</button>
-<button class="btn btn-primary" @onclick="() => currentCount--">Decrement</button>
+<button class="btn btn-primary" @onclick="IncrementCount">Increment x @IncrementStep</button>
+<button class="btn btn-primary" @onclick="() => currentCount--">Decrement x 1</button>
 
 @if(currentCount > 100)
 {
