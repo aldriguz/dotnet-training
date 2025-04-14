@@ -1,10 +1,20 @@
-@page "/basic-inputs"
+@page "/forms"
 @rendermode InteractiveServer
 
-<input @bind="text" />
-<button @onclick="() => text = string.Empty">Clear</button>
-<p>@text</p>
+<PageTitle>Forms</PageTitle>
 
+<input @bind="text" placeholder="this input works with event onChange" class="form-control"/>
+<br>
+<input @bind="text" @bind:event="oninput" placeholder=" this input works with event onInput" class="form-control"/>
+<br>
+<p>You will see input bellow as alert</p>
+<div class="alert alert-primary" role="alert">
+  <p>@text</p>
+</div>
+
+<button @onclick="() => text = string.Empty" class="btn btn-primary">Clear</button>
+<br>
 @code {
     string text = "";
+
 }
