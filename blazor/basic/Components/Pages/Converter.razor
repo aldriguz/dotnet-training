@@ -1,20 +1,22 @@
 @page "/converter"
+@rendermode InteractiveServer
 
 <PageTitle>Converter</PageTitle>
 <p>Convert Inch to/from Centimeter</p>
 
-Inches 
+<label>Inches</label> 
 <input @bind="Inches" @bind:event="oninput" type="number">
- = 
- <input @bind="Centimeters" @bind:event="oninput" type="number"> 
- Centimeters
+<span>=</span>
+<input @bind="Centimeters" @bind:event="oninput" type="number"> 
+<label>Centimeters</label>
 
 @code {
-    private double _inches = 1;
-    private double _centimeters = 2.54;
+    double _inches = 1; //default
+    double _centimeters = 2.54; //default
     public double Inches {
         get => _inches;
-        set {
+        set 
+        {
             _inches = value;
             _centimeters = value * 2.54;
         }
@@ -22,7 +24,8 @@ Inches
 
     public double Centimeters {
         get => _centimeters;
-        set {
+        set 
+        {
             _inches = value / 2.54;
             _centimeters = value;
         }
